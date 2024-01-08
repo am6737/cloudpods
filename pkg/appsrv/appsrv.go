@@ -48,6 +48,8 @@ import (
 	"yunion.io/x/onecloud/pkg/util/ctx"
 )
 
+const test = ""
+
 type Application struct {
 	name              string
 	context           context.Context
