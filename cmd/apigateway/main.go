@@ -15,11 +15,13 @@
 package main
 
 import (
+	"fmt"
 	"yunion.io/x/onecloud/pkg/apigateway/service"
 	"yunion.io/x/onecloud/pkg/util/atexit"
 )
 
 func main() {
+	fmt.Println("Test ---------------")
 	defer atexit.Handle()
 
 	service.StartService()
